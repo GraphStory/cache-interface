@@ -5,7 +5,7 @@ namespace GraphStory\Cache;
 /**
  * PhpFastCache Adapter.
  */
-class PhpFastCacheAdapter
+class PhpFastCacheAdapter implements CacheAdapter
 {
     /**
      * {@inheritDoc}
