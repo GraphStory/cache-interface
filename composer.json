@@ -1,0 +1,20 @@
+{
+    "name": "graphstory/cache-interface",
+    "description": "Generic cache interface",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Graph Story",
+            "email": "support@graphstory.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "GraphStory\\Cache\\": "src/"
+        }
+    }
+}
