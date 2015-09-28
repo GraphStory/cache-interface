@@ -2,6 +2,8 @@
 
 namespace GraphStory\Cache;
 
+use Desarrolla2\Cache\Cache;
+
 /**
  * Desarrolla2 Cache Adapter.
  *
