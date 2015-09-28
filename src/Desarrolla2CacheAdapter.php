@@ -29,7 +29,7 @@ class Desarrolla2CacheAdapter implements CacheAdapter
     /**
      * {@inheritDoc}
      */
-    public function set($key, $value, $ttl)
+    public function set($key, $value, $ttl = null)
     {
         $this->cache->set($key, $value, $ttl);
     }

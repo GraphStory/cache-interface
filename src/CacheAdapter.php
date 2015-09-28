@@ -17,9 +17,9 @@ interface CacheAdapter
      *
      * @param mixed $key
      * @param mixed $value
-     * @param int   $ttl   Time to live
+     * @param int   $ttl   OPTIONAL Time to live
      */
-    public function set($key, $value, $ttl);
+    public function set($key, $value, $ttl = null);
 
     /**
      * Deletes a cache entry.
