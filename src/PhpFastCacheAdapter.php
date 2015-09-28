@@ -17,7 +17,7 @@ class PhpFastCacheAdapter implements CacheAdapter
     /**
      * {@inheritDoc}
      */
-    public function set($key, $value)
+    public function set($key, $value, $ttl)
     {
     }
 
