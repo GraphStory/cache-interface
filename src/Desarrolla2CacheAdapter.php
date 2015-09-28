@@ -39,8 +39,6 @@ class Desarrolla2CacheAdapter implements CacheAdapter
      */
     public function delete($key)
     {
-        throw new \BadMethodCallException(
-            'Method not implemented by Desarrolla2 Cache library.'
-        );
+        $this->cache->delete($key);
     }
 }
