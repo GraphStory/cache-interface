@@ -23,7 +23,7 @@ class Desarrolla2CacheAdapter implements CacheAdapter
      */
     public function get($key)
     {
-        $this->cache->get($key);
+        return $this->cache->get($key);
     }
 
     /**
