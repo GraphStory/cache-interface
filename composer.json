@@ -1,16 +1,27 @@
 {
     "name": "graphstory/cache-interface",
-    "description": "Generic cache interface",
-    "license": "proprietary",
+    "description": "Generic cache interfaces",
+    "license": "MIT",
     "authors": [
         {
             "name": "Graph Story",
             "email": "support@graphstory.com"
+        },
+        {
+            "name": "Ed Finkler",
+            "email": "funkatron@graphstory.com"
+        },
+        {
+            "name": "Jeremy Kendall",
+            "email": "jeremy.kendall@graphstory.com"
+        },
+        {
+            "name": "Maciej Mączko"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-
+        "php": ">=5.6"
     },
     "autoload": {
         "psr-4": {
