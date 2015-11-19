@@ -6,17 +6,6 @@
         {
             "name": "Graph Story",
             "email": "support@graphstory.com"
-        },
-        {
-            "name": "Ed Finkler",
-            "email": "funkatron@graphstory.com"
-        },
-        {
-            "name": "Jeremy Kendall",
-            "email": "jeremy.kendall@graphstory.com"
-        },
-        {
-            "name": "Maciej Mączko"
         }
     ],
     "minimum-stability": "dev",
