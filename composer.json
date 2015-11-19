@@ -23,9 +23,18 @@
     "require": {
         "php": ">=5.6"
     },
+    "require-dev": {
+        "phpfastcache/phpfastcache": "^3.0",
+        "phpunit/phpunit": "5.0.4"
+    },
     "autoload": {
         "psr-4": {
             "GraphStory\\Cache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GraphStory\\Cache\\Test\\": "tests/"
         }
     }
 }
