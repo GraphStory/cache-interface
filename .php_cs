@@ -3,7 +3,8 @@
 require_once './vendor/autoload.php';
 
 $finder = Symfony\CS\Finder\DefaultFinder::create()
-    ->in('src/');
+    ->in('src/')
+    ->in('tests/');
 
 return \Symfony\CS\Config\Config::create()
     ->setUsingCache(true)

@@ -1,20 +1,30 @@
 {
     "name": "graphstory/cache-interface",
-    "description": "Generic cache interface",
-    "license": "proprietary",
+    "description": "Generic cache interfaces",
+    "license": "MIT",
     "authors": [
         {
             "name": "Graph Story",
             "email": "support@graphstory.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.18",
+        "desarrolla2/cache": "^2.0",
+        "phpfastcache/phpfastcache": "^3.0",
+        "fabpot/php-cs-fixer": "^1.10"
     },
     "autoload": {
         "psr-4": {
             "GraphStory\\Cache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GraphStory\\Cache\\Test\\": "tests/"
         }
     }
 }
