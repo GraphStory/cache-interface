@@ -2,6 +2,7 @@
     "name": "graphstory/cache-interface",
     "description": "Generic cache interfaces",
     "license": "MIT",
+    "keywords": ["cache", "adapter", "interface"],
     "authors": [
         {
             "name": "Graph Story",
